@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: counseling-service
+  cloud:
+    config:
+      uri: ${configServerUrl}
